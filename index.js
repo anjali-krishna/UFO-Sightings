@@ -111,3 +111,6 @@ function CountRows() {
 CountRows();
 
 
+$(document).ready(function() {
+    $('table.display').DataTable();
+} );
